@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-background{
+    background-color: #abfeff;
+}
+
+.navbar-styles{
+    height: 80px;
+    background-image: linear-gradient(45deg, rgb(139, 255, 124), rgb(114, 255, 86), rgb(103, 253, 170), rgb(0, 255, 255),rgb(63, 255, 255));
+    box-shadow: 0px 5px 5px rgb(0, 0, 0, 0.85);
+}
+
+.btn-carrito-style{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: none;
+    border: none;
+    margin: 5px;
+}
+
+.img-logo-style{
+    width: 150px;
+}
+
+.li-navbar-style{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    font-size: 1.6rem;
+}
+
+.saludo-style{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 28px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.btn-carrito-style .badge{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    font-size: 12px;
+    background-color: red;
+}
+
+.item-list-styles{
+    border-radius: 20px;
+    background-color: aquamarine;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+}
+
+.containerCells{
+    gap: 45px;
+    margin-top: 15px;
+}
+
+.imgCellRed{
+    width: 200px;
+    height: 300px;
+}
+
+.imgLoadingClass{
+    width: 400px;
+    height: 400px;
+}
+
+.pageNotFound{
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    font-size: 2rem;
+}
+
+.detailContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cardTitleStyles{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+.cardTextStyles{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+.detailStyles{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.class-img-cartWidget{
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+
+.buttonIncrease{
+    height: 40px;
+    width: 40px;
+    background-image: radial-gradient(rgb(139, 255, 124), rgb(114, 255, 86), rgb(103, 253, 170), rgb(0, 255, 255),rgb(63, 255, 255));
+    border-radius: 5px;
+    box-shadow: 1px 3px 1px;
+    border: 2px black solid;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+
+.buttonDecrease{
+    height: 40px;
+    width: 40px;
+    background-image: radial-gradient(rgb(139, 255, 124), rgb(114, 255, 86), rgb(103, 253, 170), rgb(0, 255, 255),rgb(63, 255, 255));
+    border-radius: 5px;
+    box-shadow: 1px 3px 1px;
+    border: 2px black solid;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+
+.buttonAdd{
+    height: 50px;
+    width: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 20px;
+    box-shadow: 1px 3px 1px;
+    background-image: radial-gradient(rgb(139, 255, 124), rgb(114, 255, 86), rgb(103, 253, 170), rgb(0, 255, 255),rgb(63, 255, 255));
+}
+
+.classCount{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-image: radial-gradient(rgb(139, 255, 124), rgb(114, 255, 86), rgb(103, 253, 170), rgb(0, 255, 255),rgb(63, 255, 255));
+    border-radius: 5px;
+    box-shadow: 1px 3px 1px;
+    border: 2px black solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.containerCount{
+    display: flex;
+}
+
+.cartProduct{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    margin-top: 25px;
+    padding-left: 15px;
+    gap: 90px;
+}
+
+.classProduct{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 60px;
+    border-radius: 15px;
+    box-shadow: 1px 4px 1px;
+    background-color: #abfeff;
+}
+.classPrice{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 4px 1px;
+    background-color: #abfeff;
+}
+.classQuantity{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15px;
+    box-shadow: 1px 4px 1px;
+    background-color: #abfeff;
+}
+.classImageCart{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 150px;
+    width: 130px;
+    border: 1px black solid;
+    margin: 5px;
+    border-radius: 15px;
+    box-shadow: 1px 4px 1px;
+}
+.classRemoveButton{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    border: red 2px solid;
+    padding: 3px;
+    margin-right: 60px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 1px;
+}
+.classReset{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    height: 50px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    border: red 2px solid;
+    padding: 3px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 1px;
+}
+.classTotal{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.containerButtonReset{
+    display: flex;
+    justify-content: center;
+}
+
+.styleLabel{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-right: 15px;
+
+}
+.styleInput{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-right: 15px;
+    margin-top: 15px;
+}
+.stylePurchase{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 125px;
+    text-align: center;
+}
+
+.styleNothing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.styleGoBackButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+}
+.styleLinkButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.containerNothing{
+    margin-top: 150px;
+}
+.styleAlert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    padding-right: 10px;
+}
+
+.toast-button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 20px;
+    box-shadow: 1px 3px 1px;
+    background-image: radial-gradient(rgb(139, 255, 124), rgb(114, 255, 86), rgb(103, 253, 170), rgb(0, 255, 255),rgb(63, 255, 255));
+}
+
+.styleForm{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    background-image: radial-gradient(rgb(139, 255, 124), rgb(114, 255, 86), rgb(103, 253, 170), rgb(0, 255, 255),rgb(63, 255, 255));
+    border: rgb(0, 0, 0) 2px solid;
+    border-radius: 15px;
+    box-shadow: 1px 2px 1px;
+    padding: 20px;
+}
+
+.styleDatos{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
