@@ -5,6 +5,4 @@ Un proyecto del curso de react usando REACT.JS. Donde se creo una tienda de celu
 
 Se uso: 
 
-Bootstrap
-REACT.JS
-Toastify
+Bootstrap - REACT.JS - Toastify
